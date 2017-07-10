@@ -3,12 +3,12 @@ OpenSSH 6.2
 
 * AuthenticationMethods keyboard-interactive,publickey instead of AuthenticationMethods keyboard-interactive:pam,publickey
 
-Connect				: Connection from 127.0.0.1 port 57946
-Auth-Failed 		: Failed publickey for keeto from 127.0.0.1 port 57946 ssh2
-Auth-Success		: Found matching RSA key: 0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
-			  		  Accepted publickey for keeto from 127.0.0.1 port 57946 ssh2
-Disconnect-Success	: Received disconnect from 127.0.0.1: 11: disconnected by user
-Disconnect-Fail		: Connection closed by 127.0.0.1 [preauth]
+Connect                 : Connection from 127.0.0.1 port 57946
+Auth-Failed             : Failed publickey for keeto from 127.0.0.1 port 57946 ssh2
+Auth-Success            : Found matching RSA key: 0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
+                        : Accepted publickey for keeto from 127.0.0.1 port 57946 ssh2
+Disconnect-Success      : Received disconnect from 127.0.0.1: 11: disconnected by user
+Disconnect-Fail         : Connection closed by 127.0.0.1 [preauth]
 
 OpenSSH 6.3
 ===========
@@ -16,49 +16,49 @@ OpenSSH 6.3
 * AuthenticationMethods keyboard-interactive:pam,publickey working
 * Fingerprint etc. logged in one line
 
-Connect				: Connection from 127.0.0.1 port 58014
-Auth-Failed			: Failed publickey for keeto from 127.0.0.1 port 58014 ssh2: RSA 0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
-Auth-Success		: Accepted publickey for keeto from 127.0.0.1 port 58014 ssh2: RSA 0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
-Disconnect-Success	: Received disconnect from 127.0.0.1: 11: disconnected by user
-Disconnect-Fail		: Connection closed by 127.0.0.1 [preauth]
+Connect                 : Connection from 127.0.0.1 port 58014
+Auth-Failed             : Failed publickey for keeto from 127.0.0.1 port 58014 ssh2: RSA 0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
+Auth-Success            : Accepted publickey for keeto from 127.0.0.1 port 58014 ssh2: RSA 0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
+Disconnect-Success      : Received disconnect from 127.0.0.1: 11: disconnected by user
+Disconnect-Fail         : Connection closed by 127.0.0.1 [preauth]
 
 OpenSSH 6.4
 ===========
 
-Connect				: Connection from 127.0.0.1 port 58018
-Auth-Failed			: Failed publickey for keeto from 127.0.0.1 port 58018 ssh2: RSA 0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
-Auth-Success		: Accepted publickey for keeto from 127.0.0.1 port 58018 ssh2: RSA 0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
-Disconnect-Success	: Received disconnect from 127.0.0.1: 11: disconnected by user
-Disconnect-Fail		: Connection closed by 127.0.0.1 [preauth]
+Connect                 : Connection from 127.0.0.1 port 58018
+Auth-Failed             : Failed publickey for keeto from 127.0.0.1 port 58018 ssh2: RSA 0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
+Auth-Success            : Accepted publickey for keeto from 127.0.0.1 port 58018 ssh2: RSA 0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
+Disconnect-Success      : Received disconnect from 127.0.0.1: 11: disconnected by user
+Disconnect-Fail         : Connection closed by 127.0.0.1 [preauth]
 
 OpenSSH 6.5
 ===========
 
 * Connect line changed
 
-Connect				: Connection from 127.0.0.1 port 58038 on 127.0.0.1 port 22
-Auth-Failed			: Failed publickey for keeto from 127.0.0.1 port 58038 ssh2: RSA 0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
-Auth-Success		: Accepted publickey for keeto from 127.0.0.1 port 58038 ssh2: RSA 0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
-Disconnect-Success	: Received disconnect from 127.0.0.1: 11: disconnected by user
-Disconnect-Fail		: Connection closed by 127.0.0.1 [preauth]
+Connect                 : Connection from 127.0.0.1 port 58038 on 127.0.0.1 port 22
+Auth-Failed             : Failed publickey for keeto from 127.0.0.1 port 58038 ssh2: RSA 0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
+Auth-Success            : Accepted publickey for keeto from 127.0.0.1 port 58038 ssh2: RSA 0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
+Disconnect-Success      : Received disconnect from 127.0.0.1: 11: disconnected by user
+Disconnect-Fail         : Connection closed by 127.0.0.1 [preauth]
 
 OpenSSH 6.6
 ===========
 
-Connect				: Connection from 127.0.0.1 port 58068 on 127.0.0.1 port 22
-Auth-Failed			: Failed publickey for keeto from 127.0.0.1 port 58068 ssh2: RSA 0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
-Auth-Success		: Accepted publickey for keeto from 127.0.0.1 port 58068 ssh2: RSA 0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
-Disconnect-Success	: Received disconnect from 127.0.0.1: 11: disconnected by user
-Disconnect-Fail		: Connection closed by 127.0.0.1 [preauth]
+Connect                 : Connection from 127.0.0.1 port 58068 on 127.0.0.1 port 22
+Auth-Failed             : Failed publickey for keeto from 127.0.0.1 port 58068 ssh2: RSA 0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
+Auth-Success            : Accepted publickey for keeto from 127.0.0.1 port 58068 ssh2: RSA 0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
+Disconnect-Success      : Received disconnect from 127.0.0.1: 11: disconnected by user
+Disconnect-Fail         : Connection closed by 127.0.0.1 [preauth]
 
 OpenSSH 6.7
 ===========
 
-Connect				: Connection from 127.0.0.1 port 58088 on 127.0.0.1 port 22
-Auth-Failed			: Failed publickey for keeto from 127.0.0.1 port 58088 ssh2: RSA 0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
-Auth-Success		: Accepted publickey for keeto from 127.0.0.1 port 58088 ssh2: RSA 0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
-Disconnect-Success	: Received disconnect from 127.0.0.1: 11: disconnected by user
-Disconnect-Fail		: Connection closed by 127.0.0.1 [preauth]
+Connect                 : Connection from 127.0.0.1 port 58088 on 127.0.0.1 port 22
+Auth-Failed             : Failed publickey for keeto from 127.0.0.1 port 58088 ssh2: RSA 0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
+Auth-Success            : Accepted publickey for keeto from 127.0.0.1 port 58088 ssh2: RSA 0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
+Disconnect-Success      : Received disconnect from 127.0.0.1: 11: disconnected by user
+Disconnect-Fail         : Connection closed by 127.0.0.1 [preauth]
 
 OpenSSH 6.8
 ===========
@@ -66,109 +66,108 @@ OpenSSH 6.8
 * FingerprintHash support added
 * New Disconnect line
 
-Connect					: Connection from 127.0.0.1 port 58132 on 127.0.0.1 port 22
-Auth-Failed-MD5			: Failed publickey for keeto from 127.0.0.1 port 58132 ssh2: RSA MD5:0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
-Auth-Success-MD5	  	: Accepted publickey for keeto from 127.0.0.1 port 58132 ssh2: RSA MD5:0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
-Auth-Failed-RIPEMD160	: Failed publickey for keeto from 127.0.0.1 port 58184 ssh2: RSA RIPEMD160:LHLYv5DNKC+283mcEPAf88UvtkQ
-Auth-Success-RIPEMD160	: Accepted publickey for keeto from 127.0.0.1 port 58184 ssh2: RSA RIPEMD160:8eJBa4AbBD0wJGeVv9/vLb6WI+8
-Auth-Failed-SHA1		: Failed publickey for keeto from 127.0.0.1 port 58196 ssh2: RSA SHA1:i3Mi37DV8yW0lbusrebNSi1ybYY
-Auth-Success-SHA1		: Accepted publickey for keeto from 127.0.0.1 port 58196 ssh2: RSA SHA1:iTvQeD60vX/RjYvLTH2V5Px7wMc
-Auth-Failed-SHA256		: Failed publickey for keeto from 127.0.0.1 port 58206 ssh2: RSA SHA256:XKISYo6vSqclTS/GzZWlOJdpDdOyDcgkBPot6pmxxtM
-Auth-Success-SHA256		: Accepted publickey for keeto from 127.0.0.1 port 58206 ssh2: RSA SHA256:pkzLumO2hKnHMbFfvX2qVIyu7OIL5vQ/4ZXmzzfuMQk
-Auth-Failed-SHA384		: Failed publickey for keeto from 127.0.0.1 port 58216 ssh2: RSA SHA384:A0+2x4tn6/HbufxUKH3ZdtQgK+rpvgb4McatKPMiEJN4esIOyJLbmyIcN0vOmIct
-Auth-Success-SHA384		: Accepted publickey for keeto from 127.0.0.1 port 58216 ssh2: RSA SHA384:LT4IPAYjWQnun8x3x+SpLiLVHbLauY/ho0Ef++ILP3s7QaLaLxchBpXDWvZWz7vL
-Auth-Failed-SHA512		: Failed publickey for keeto from 127.0.0.1 port 58234 ssh2: RSA SHA512:uSezWofH5HhqAPvRx2YEGmRjnrzMMv9sSjeS05fKW49J8NgJQ3H1+Y2f1PUOSsjtF5EIGolGcxAsHqcls7O/zg
-Auth-Success-SHA512		: Accepted publickey for keeto from 127.0.0.1 port 58234 ssh2: RSA SHA512:kQNGKeg4WeTQa1putCCVObDO2422Iu0r64ywsirdHwW/OIbeF6wxYyTL2Rr8GOv+e6GkV43mAH8lxx98F/+M4w
-Disconnect-Success		: Received disconnect from 127.0.0.1: 11: disconnected by user
-						: Disconnected from 127.0.0.1
-Disconnect-Fail			: Connection closed by 127.0.0.1 [preauth]
+Connect                 : Connection from 127.0.0.1 port 58132 on 127.0.0.1 port 22
+Auth-Failed-MD5         : Failed publickey for keeto from 127.0.0.1 port 58132 ssh2: RSA MD5:0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
+Auth-Success-MD5        : Accepted publickey for keeto from 127.0.0.1 port 58132 ssh2: RSA MD5:0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
+Auth-Failed-RIPEMD160   : Failed publickey for keeto from 127.0.0.1 port 58184 ssh2: RSA RIPEMD160:LHLYv5DNKC+283mcEPAf88UvtkQ
+Auth-Success-RIPEMD160  : Accepted publickey for keeto from 127.0.0.1 port 58184 ssh2: RSA RIPEMD160:8eJBa4AbBD0wJGeVv9/vLb6WI+8
+Auth-Failed-SHA1        : Failed publickey for keeto from 127.0.0.1 port 58196 ssh2: RSA SHA1:i3Mi37DV8yW0lbusrebNSi1ybYY
+Auth-Success-SHA1       : Accepted publickey for keeto from 127.0.0.1 port 58196 ssh2: RSA SHA1:iTvQeD60vX/RjYvLTH2V5Px7wMc
+Auth-Failed-SHA256      : Failed publickey for keeto from 127.0.0.1 port 58206 ssh2: RSA SHA256:XKISYo6vSqclTS/GzZWlOJdpDdOyDcgkBPot6pmxxtM
+Auth-Success-SHA256     : Accepted publickey for keeto from 127.0.0.1 port 58206 ssh2: RSA SHA256:pkzLumO2hKnHMbFfvX2qVIyu7OIL5vQ/4ZXmzzfuMQk
+Auth-Failed-SHA384      : Failed publickey for keeto from 127.0.0.1 port 58216 ssh2: RSA SHA384:A0+2x4tn6/HbufxUKH3ZdtQgK+rpvgb4McatKPMiEJN4esIOyJLbmyIcN0vOmIct
+Auth-Success-SHA384     : Accepted publickey for keeto from 127.0.0.1 port 58216 ssh2: RSA SHA384:LT4IPAYjWQnun8x3x+SpLiLVHbLauY/ho0Ef++ILP3s7QaLaLxchBpXDWvZWz7vL
+Auth-Failed-SHA512      : Failed publickey for keeto from 127.0.0.1 port 58234 ssh2: RSA SHA512:uSezWofH5HhqAPvRx2YEGmRjnrzMMv9sSjeS05fKW49J8NgJQ3H1+Y2f1PUOSsjtF5EIGolGcxAsHqcls7O/zg
+Auth-Success-SHA512     : Accepted publickey for keeto from 127.0.0.1 port 58234 ssh2: RSA SHA512:kQNGKeg4WeTQa1putCCVObDO2422Iu0r64ywsirdHwW/OIbeF6wxYyTL2Rr8GOv+e6GkV43mAH8lxx98F/+M4w
+Disconnect-Success      : Received disconnect from 127.0.0.1: 11: disconnected by user
+                        : Disconnected from 127.0.0.1
+Disconnect-Fail         : Connection closed by 127.0.0.1 [preauth]
 
 OpenSSH 6.9
 ===========
 
-Connect					: Connection from 127.0.0.1 port 58236 on 127.0.0.1 port 22
-Auth-Failed-MD5			: Failed publickey for keeto from 127.0.0.1 port 58246 ssh2: RSA MD5:0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
-Auth-Success-MD5		: Accepted publickey for keeto from 127.0.0.1 port 58246 ssh2: RSA MD5:0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
-Auth-Failed-SHA256		: Failed publickey for keeto from 127.0.0.1 port 58256 ssh2: RSA SHA256:XKISYo6vSqclTS/GzZWlOJdpDdOyDcgkBPot6pmxxtM
-Auth-Success-SHA256		: Accepted publickey for keeto from 127.0.0.1 port 58256 ssh2: RSA SHA256:pkzLumO2hKnHMbFfvX2qVIyu7OIL5vQ/4ZXmzzfuMQk
-Disconnect-Success		: Received disconnect from 127.0.0.1: 11: disconnected by user
-						: Disconnected from 127.0.0.1
-Disconnect-Fail			: Connection closed by 127.0.0.1 [preauth]
+Connect                 : Connection from 127.0.0.1 port 58236 on 127.0.0.1 port 22
+Auth-Failed-MD5         : Failed publickey for keeto from 127.0.0.1 port 58246 ssh2: RSA MD5:0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
+Auth-Success-MD5        : Accepted publickey for keeto from 127.0.0.1 port 58246 ssh2: RSA MD5:0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
+Auth-Failed-SHA256      : Failed publickey for keeto from 127.0.0.1 port 58256 ssh2: RSA SHA256:XKISYo6vSqclTS/GzZWlOJdpDdOyDcgkBPot6pmxxtM
+Auth-Success-SHA256     : Accepted publickey for keeto from 127.0.0.1 port 58256 ssh2: RSA SHA256:pkzLumO2hKnHMbFfvX2qVIyu7OIL5vQ/4ZXmzzfuMQk
+Disconnect-Success      : Received disconnect from 127.0.0.1: 11: disconnected by user
+                        : Disconnected from 127.0.0.1
+Disconnect-Fail         : Connection closed by 127.0.0.1 [preauth]
 
 OpenSSH 7.0
 ===========
 
-Connect					: Connection from 127.0.0.1 port 58260 on 127.0.0.1 port 22
-Auth-Failed-MD5			: Failed publickey for keeto from 127.0.0.1 port 58278 ssh2: RSA MD5:0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
-Auth-Success-MD5		: Accepted publickey for keeto from 127.0.0.1 port 58278 ssh2: RSA MD5:0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
-Auth-Failed-SHA256		: Failed publickey for keeto from 127.0.0.1 port 58260 ssh2: RSA SHA256:XKISYo6vSqclTS/GzZWlOJdpDdOyDcgkBPot6pmxxtM
-Auth-Success-SHA256		: Accepted publickey for keeto from 127.0.0.1 port 58260 ssh2: RSA SHA256:pkzLumO2hKnHMbFfvX2qVIyu7OIL5vQ/4ZXmzzfuMQk
-Disconnect-Success		: Received disconnect from 127.0.0.1: 11: disconnected by user
-						: Disconnected from 127.0.0.1
-Disconnect-Fail			: Connection closed by 127.0.0.1 [preauth]
+Connect                 : Connection from 127.0.0.1 port 58260 on 127.0.0.1 port 22
+Auth-Failed-MD5         : Failed publickey for keeto from 127.0.0.1 port 58278 ssh2: RSA MD5:0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
+Auth-Success-MD5        : Accepted publickey for keeto from 127.0.0.1 port 58278 ssh2: RSA MD5:0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
+Auth-Failed-SHA256      : Failed publickey for keeto from 127.0.0.1 port 58260 ssh2: RSA SHA256:XKISYo6vSqclTS/GzZWlOJdpDdOyDcgkBPot6pmxxtM
+Auth-Success-SHA256     : Accepted publickey for keeto from 127.0.0.1 port 58260 ssh2: RSA SHA256:pkzLumO2hKnHMbFfvX2qVIyu7OIL5vQ/4ZXmzzfuMQk
+Disconnect-Success      : Received disconnect from 127.0.0.1: 11: disconnected by user
+                        : Disconnected from 127.0.0.1
+Disconnect-Fail         : Connection closed by 127.0.0.1 [preauth]
 
 OpenSSH 7.1
 ===========
 
-Connect					: Connection from 127.0.0.1 port 58298 on 127.0.0.1 port 22
-Auth-Failed-MD5			: Failed publickey for keeto from 127.0.0.1 port 58298 ssh2: RSA MD5:0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
-Auth-Success-MD5		: Accepted publickey for keeto from 127.0.0.1 port 58298 ssh2: RSA MD5:0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
-Auth-Failed-SHA256		: Failed publickey for keeto from 127.0.0.1 port 58310 ssh2: RSA SHA256:XKISYo6vSqclTS/GzZWlOJdpDdOyDcgkBPot6pmxxtM
-Auth-Success-SHA256		: Accepted publickey for keeto from 127.0.0.1 port 58310 ssh2: RSA SHA256:pkzLumO2hKnHMbFfvX2qVIyu7OIL5vQ/4ZXmzzfuMQk
-Disconnect-Success		: Received disconnect from 127.0.0.1: 11: disconnected by user
-						: Disconnected from 127.0.0.1
-Disconnect-Fail			: Connection closed by 127.0.0.1 [preauth]
+Connect                 : Connection from 127.0.0.1 port 58298 on 127.0.0.1 port 22
+Auth-Failed-MD5         : Failed publickey for keeto from 127.0.0.1 port 58298 ssh2: RSA MD5:0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
+Auth-Success-MD5        : Accepted publickey for keeto from 127.0.0.1 port 58298 ssh2: RSA MD5:0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
+Auth-Failed-SHA256      : Failed publickey for keeto from 127.0.0.1 port 58310 ssh2: RSA SHA256:XKISYo6vSqclTS/GzZWlOJdpDdOyDcgkBPot6pmxxtM
+Auth-Success-SHA256     : Accepted publickey for keeto from 127.0.0.1 port 58310 ssh2: RSA SHA256:pkzLumO2hKnHMbFfvX2qVIyu7OIL5vQ/4ZXmzzfuMQk
+Disconnect-Success      : Received disconnect from 127.0.0.1: 11: disconnected by user
+                        : Disconnected from 127.0.0.1
+Disconnect-Fail         : Connection closed by 127.0.0.1 [preauth]
 
 OpenSSH 7.2
 ===========
 
 * New disconnect line (port included) --> https://bugzilla.mindrot.org/show_bug.cgi?id=2503
 
-Connect					: Connection from 127.0.0.1 port 58324 on 127.0.0.1 port 22
-Auth-Failed-MD5			: Failed publickey for keeto from 127.0.0.1 port 58324 ssh2: RSA MD5:0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
-Auth-Success-MD5		: Accepted publickey for keeto from 127.0.0.1 port 58324 ssh2: RSA MD5:0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
-Auth-Failed-SHA256		: Failed publickey for keeto from 127.0.0.1 port 58344 ssh2: RSA SHA256:XKISYo6vSqclTS/GzZWlOJdpDdOyDcgkBPot6pmxxtM
-Auth-Success-SHA256		: Accepted publickey for keeto from 127.0.0.1 port 58344 ssh2: RSA SHA256:pkzLumO2hKnHMbFfvX2qVIyu7OIL5vQ/4ZXmzzfuMQk
-Disconnect-Success		: Received disconnect from 127.0.0.1 port 58324:11: disconnected by user
-						: Disconnected from 127.0.0.1 port 58324
-Disconnect-Fail			: Connection closed by 127.0.0.1 port 58346 [preauth]
+Connect                 : Connection from 127.0.0.1 port 58324 on 127.0.0.1 port 22
+Auth-Failed-MD5         : Failed publickey for keeto from 127.0.0.1 port 58324 ssh2: RSA MD5:0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
+Auth-Success-MD5        : Accepted publickey for keeto from 127.0.0.1 port 58324 ssh2: RSA MD5:0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
+Auth-Failed-SHA256      : Failed publickey for keeto from 127.0.0.1 port 58344 ssh2: RSA SHA256:XKISYo6vSqclTS/GzZWlOJdpDdOyDcgkBPot6pmxxtM
+Auth-Success-SHA256     : Accepted publickey for keeto from 127.0.0.1 port 58344 ssh2: RSA SHA256:pkzLumO2hKnHMbFfvX2qVIyu7OIL5vQ/4ZXmzzfuMQk
+Disconnect-Success      : Received disconnect from 127.0.0.1 port 58324:11: disconnected by user
+                        : Disconnected from 127.0.0.1 port 58324
+Disconnect-Fail         : Connection closed by 127.0.0.1 port 58346 [preauth]
 
 OpenSSH 7.3
 ===========
 
-Connect					: Connection from 127.0.0.1 port 58432 on 127.0.0.1 port 22
-Auth-Failed-MD5			: Failed publickey for keeto from 127.0.0.1 port 58444 ssh2: RSA MD5:0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
-Auth-Success-MD5		: Accepted publickey for keeto from 127.0.0.1 port 58444 ssh2: RSA MD5:0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
-Auth-Failed-SHA256		: Failed publickey for keeto from 127.0.0.1 port 58432 ssh2: RSA SHA256:XKISYo6vSqclTS/GzZWlOJdpDdOyDcgkBPot6pmxxtM
-Auth-Success-SHA256		: Accepted publickey for keeto from 127.0.0.1 port 58432 ssh2: RSA SHA256:pkzLumO2hKnHMbFfvX2qVIyu7OIL5vQ/4ZXmzzfuMQk
-Disconnect-Success		: Received disconnect from 127.0.0.1 port 58432:11: disconnected by user
-						: Disconnected from 127.0.0.1 port 58432
-Disconnect-Fail			: Connection closed by 127.0.0.1 port 58446 [preauth]
+Connect                 : Connection from 127.0.0.1 port 58432 on 127.0.0.1 port 22
+Auth-Failed-MD5         : Failed publickey for keeto from 127.0.0.1 port 58444 ssh2: RSA MD5:0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
+Auth-Success-MD5        : Accepted publickey for keeto from 127.0.0.1 port 58444 ssh2: RSA MD5:0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
+Auth-Failed-SHA256      : Failed publickey for keeto from 127.0.0.1 port 58432 ssh2: RSA SHA256:XKISYo6vSqclTS/GzZWlOJdpDdOyDcgkBPot6pmxxtM
+Auth-Success-SHA256     : Accepted publickey for keeto from 127.0.0.1 port 58432 ssh2: RSA SHA256:pkzLumO2hKnHMbFfvX2qVIyu7OIL5vQ/4ZXmzzfuMQk
+Disconnect-Success      : Received disconnect from 127.0.0.1 port 58432:11: disconnected by user
+                        : Disconnected from 127.0.0.1 port 58432
+Disconnect-Fail         : Connection closed by 127.0.0.1 port 58446 [preauth]
 
 OpenSSH 7.4
 ===========
 
-Connect					: Connection from 127.0.0.1 port 58460 on 127.0.0.1 port 22
-Auth-Failed-MD5			: Failed publickey for keeto from 127.0.0.1 port 58460 ssh2: RSA MD5:0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
-Auth-Success-MD5		: Accepted publickey for keeto from 127.0.0.1 port 58460 ssh2: RSA MD5:0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
-Auth-Failed-SHA256		: Failed publickey for keeto from 127.0.0.1 port 58478 ssh2: RSA SHA256:XKISYo6vSqclTS/GzZWlOJdpDdOyDcgkBPot6pmxxtM
-Auth-Success-SHA256		: Accepted publickey for keeto from 127.0.0.1 port 58478 ssh2: RSA SHA256:pkzLumO2hKnHMbFfvX2qVIyu7OIL5vQ/4ZXmzzfuMQk
-Disconnect-Success		: Received disconnect from 127.0.0.1 port 58460:11: disconnected by user
-						: Disconnected from 127.0.0.1 port 58460
-Disconnect-Fail			: Connection closed by 127.0.0.1 port 58480 [preauth]
+Connect                 : Connection from 127.0.0.1 port 58460 on 127.0.0.1 port 22
+Auth-Failed-MD5         : Failed publickey for keeto from 127.0.0.1 port 58460 ssh2: RSA MD5:0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
+Auth-Success-MD5        : Accepted publickey for keeto from 127.0.0.1 port 58460 ssh2: RSA MD5:0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
+Auth-Failed-SHA256      : Failed publickey for keeto from 127.0.0.1 port 58478 ssh2: RSA SHA256:XKISYo6vSqclTS/GzZWlOJdpDdOyDcgkBPot6pmxxtM
+Auth-Success-SHA256     : Accepted publickey for keeto from 127.0.0.1 port 58478 ssh2: RSA SHA256:pkzLumO2hKnHMbFfvX2qVIyu7OIL5vQ/4ZXmzzfuMQk
+Disconnect-Success      : Received disconnect from 127.0.0.1 port 58460:11: disconnected by user
+                        : Disconnected from 127.0.0.1 port 58460
+Disconnect-Fail         : Connection closed by 127.0.0.1 port 58480 [preauth]
 
 OpenSSH 7.5
 ===========
 
 * Additional information in several messages (https://www.openssh.com/txt/release-7.5) e.g. disconnect line
 
-Connect					: Connection from 127.0.0.1 port 58496 on 127.0.0.1 port 22
-Auth-Failed-MD5			: Failed publickey for keeto from 127.0.0.1 port 58496 ssh2: RSA MD5:0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
-Auth-Success-MD5		: Accepted publickey for keeto from 127.0.0.1 port 58496 ssh2: RSA MD5:0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
-Auth-Failed-SHA256		: Failed publickey for keeto from 127.0.0.1 port 58508 ssh2: RSA SHA256:XKISYo6vSqclTS/GzZWlOJdpDdOyDcgkBPot6pmxxtM
-Auth-Success-SHA256		: Accepted publickey for keeto from 127.0.0.1 port 58508 ssh2: RSA SHA256:pkzLumO2hKnHMbFfvX2qVIyu7OIL5vQ/4ZXmzzfuMQk
-Disconnect-Success		: Received disconnect from 127.0.0.1 port 58496:11: disconnected by user
-						: Disconnected from user keeto 127.0.0.1 port 58496
-Disconnect-Fail			: Connection closed by authenticating user keeto 127.0.0.1 port 58514 [preauth]
-
+Connect                 : Connection from 127.0.0.1 port 58496 on 127.0.0.1 port 22
+Auth-Failed-MD5         : Failed publickey for keeto from 127.0.0.1 port 58496 ssh2: RSA MD5:0f:43:bb:ce:c4:d3:29:51:75:fb:e1:65:e7:5a:61:67
+Auth-Success-MD5        : Accepted publickey for keeto from 127.0.0.1 port 58496 ssh2: RSA MD5:0e:a4:83:a5:7e:d0:29:07:c6:68:dc:51:ca:a8:eb:6f
+Auth-Failed-SHA256      : Failed publickey for keeto from 127.0.0.1 port 58508 ssh2: RSA SHA256:XKISYo6vSqclTS/GzZWlOJdpDdOyDcgkBPot6pmxxtM
+Auth-Success-SHA256     : Accepted publickey for keeto from 127.0.0.1 port 58508 ssh2: RSA SHA256:pkzLumO2hKnHMbFfvX2qVIyu7OIL5vQ/4ZXmzzfuMQk
+Disconnect-Success      : Received disconnect from 127.0.0.1 port 58496:11: disconnected by user
+                        : Disconnected from user keeto 127.0.0.1 port 58496
+Disconnect-Fail         : Connection closed by authenticating user keeto 127.0.0.1 port 58514 [preauth]
 
