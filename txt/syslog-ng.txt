@@ -1,0 +1,23 @@
+Timezone
+--------
+
+recv-time-zone() sets the assumed timezone of a message that does not carry a tz offset.
+recv-time-zone() doesn't do anything if timezone is already set
+time-zone() converts the whole timestamp to the time-zone specified within time-zone()
+time-zone() is a per source / destination override. can only convert if time-zone is
+specified. if recv-time-zone() is not specified than default = localtime
+send-time-zone() also changes the time-zone but is overriden by time-zone() if set
+
+Conclusion
+----------
+
+recv-time-zone() only sets tz offset to a message that does not carray tz offset.
+send-time-zone(x) converts the timestamp to the time at offset x
+time-zone(x) converts the timestamp to the timat at offset x (overrides send-time-zone(x)).
+time-zone(x) specified in destination overrides global time-zone(x).
+
+if keep-timestamp(yes) then still the message is changed (admin guide wrong?!)
+
+send-time-zone and time-zone both change timestamp. both are not interfering with
+recv-time-zone. if recv-time-zone is not set local timezone is used.
+
