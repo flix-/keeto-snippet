@@ -27,6 +27,11 @@ o C_INCLUDE_PATH="/usr/local/src/include" LIBRARY_PATH="/usr/local/src/lib" LD_L
 AFL
 ===
 
+o export C_INCLUDE_PATH="/usr/local/src/include" LIBRARY_PATH="/usr/local/src/lib" LD_LIBRARY_PATH="/usr/local/src/lib"
+o on local machine:
+    o echo core >/proc/sys/kernel/core_pattern
+    o cd /sys/devices/system/cpu
+      echo performance | tee cpu*/cpufreq/scaling_governor
 o afl-fuzz -m none -i input/ -o output/ ./keeto-pam-client
 
 
