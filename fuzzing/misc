@@ -1,0 +1,32 @@
+PAM
+===
+
+o Remove dlclose() and recompile
+o ./configure --prefix=/usr/local/src --disable-db && make && make install
+
+
+Docker
+======
+
+o docker run --network docker_keeto-net --name keeto-testing -d -i --cap-add SYS_PTRACE keeto-testing
+
+
+Keeto
+=====
+
+o Add CFLAGS="-fno-omit-frame-pointer -fsanitize=address"
+o C_INCLUDE_PATH="/usr/local/src/include" LIBRARY_PATH="/usr/local/src/lib" LD_LIBRARY_PATH="/usr/local/src/lib" CC=/usr/bin/afl-gcc ./configure --libdir=/usr/local/src/lib/security --enable-debug && make && make install
+
+
+PAM client
+==========
+
+o C_INCLUDE_PATH="/usr/local/src/include" LIBRARY_PATH="/usr/local/src/lib" LD_LIBRARY_PATH="/usr/local/src/lib" /usr/bin/afl-gcc -Wall -pedantic-errors -std=gnu99 -ggdb -O0 -fno-omit-frame-pointer -fsanitize=address -lpam keeto-pam-client.c -o keeto-pam-client
+
+
+AFL
+===
+
+o afl-fuzz -m none -i input/ -o output/ ./keeto-pam-client
+
+
